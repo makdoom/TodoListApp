@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Code|Fira+Sans+Extra+Condensed&display=swap');
+body{
+  background: linear-gradient( 90deg, #F9D976, #F39F86);
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Code' ;
+}
+.container h1{
+  text-align: center;
+  /* margin: 0; */
+  /* padding: 0; */
+  color: #fff;
+  font-weight: bolder;
+  font-size: 3em;
+  font-family: 'Fira Code';
+  letter-spacing: 1px;
+}
+.App{
+  background: #ffff;
+  min-height: 400px;
+  width: 400px;
+  margin: 40px auto;
+  margin-top: 20px;
+  box-shadow: 5px 5px 20px #686767;
+}
+#todoForm input{
+  outline: none;
+  border: 1.5px solid #000;
+  width: 210px;
+  height: 40px;
+  padding: 0 20px;
+  margin: 20px;
+  border-radius: 50px;
+  font-family: 'Fira Code' ;
+}
+
+#todoForm button{
+  height: 40px;
+  width: 85px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  background: linear-gradient( 90deg, #FC575E, #F7B42C);
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Fira Code' ;
+}
